@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/React-Projects/static/css/main.96d25427.css",
-    "main.js": "/React-Projects/static/js/main.efe450a8.js",
-    "index.html": "/React-Projects/index.html",
-    "main.96d25427.css.map": "/React-Projects/static/css/main.96d25427.css.map",
-    "main.efe450a8.js.map": "/React-Projects/static/js/main.efe450a8.js.map"
+    "main.css": "/React-Project-3/static/css/main.7e963752.css",
+    "main.js": "/React-Project-3/static/js/main.081d58c8.js",
+    "static/media/investment-calculator-logo.png": "/React-Project-3/static/media/investment-calculator-logo.c20da4d5b23f8d49ad00.png",
+    "index.html": "/React-Project-3/index.html",
+    "main.7e963752.css.map": "/React-Project-3/static/css/main.7e963752.css.map",
+    "main.081d58c8.js.map": "/React-Project-3/static/js/main.081d58c8.js.map"
   },
   "entrypoints": [
-    "static/css/main.96d25427.css",
-    "static/js/main.efe450a8.js"
+    "static/css/main.7e963752.css",
+    "static/js/main.081d58c8.js"
   ]
 }
