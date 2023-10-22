@@ -3,10 +3,10 @@ import React, {useState} from "react";
 import '../../index.css'
 
 function FormComponent(props){
-const {Savings, setSavings}=useState('');
-const {yearlySacings, setYearlySavings}=useState('');
-const {ROI, SetROI}=useState('');
-const {numberOfYears, setNumberOfYears}=useState('');
+const [Savings, setSavings]=useState('');
+const [yearlySacings, setYearlySavings]=useState('');
+const [ROI, SetROI]=useState('');
+const [numberOfYears, setNumberOfYears]=useState('');
 
 const SavingHandler = (event) => {
     setSavings(event.target.value);
@@ -32,7 +32,8 @@ const ResetHandler = (event) => {
 
 const onSubmitHandler = (event) => {
     event.preventDefault();
-    const form = event.target;
+    const form = [Savings, yearlySacings, ROI, numberOfYears];
+    props.PropData(form);
     // const formData = new FormData(form);
     // const userInput = Object.fromEntries(formData.entries());
   //  calculateHandler(userInput);

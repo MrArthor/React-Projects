@@ -3,7 +3,6 @@ import React from "react"
 import "../../index.css";
 
 function TableComponent(props){
-
   const calculateHandler = (userInput) => {
     // Should be triggered when form is submitted
     // You might not directly want to bind it to the submit event on the form though...
@@ -41,6 +40,8 @@ function TableComponent(props){
         <th>Invested Capital</th>
       </tr>
     </thead>
+  {  (props.Data.map((data) => {
+    return(
     <tbody>
       <tr>
         <td>YEAR NUMBER</td>
@@ -50,6 +51,7 @@ function TableComponent(props){
         <td>TOTAL INVESTED CAPITAL</td>
       </tr>
     </tbody>
+    )})) }
   </table>)
 }
 export default TableComponent;
